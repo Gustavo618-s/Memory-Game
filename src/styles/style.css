@@ -15,17 +15,17 @@ body {
   gap: 30px;
   background: linear-gradient(
     325deg,
-    black 0%,
-    rgb(112, 3, 190) 30%,
-    salmon 70%,
-    antiquewhite 100%
+    #2f4156 20%,
+    #567cbd 45%,
+    #c8d9e6 60%,
+    #f5efbd 100%
   );
   padding: 40px 60px;
 }
 
 h2 {
   font-size: 3em;
-  color: rgb(226, 199, 220);
+  color: rgb(3, 53, 100);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -34,7 +34,7 @@ h2 {
   padding: 15px 20px;
   width: 100%;
   color: black;
-  background-color: white;
+  background-color: #bdc4d4;
   border: none;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -43,14 +43,14 @@ h2 {
 }
 
 .reset:focus {
-  color: crimson;
+  color: rgb(1, 9, 88);
   background-color: ghostwhite;
 }
 
 .game {
   width: 430px;
   height: 430px;
-  border: 1px solid red;
+  border: 1px solid rgb(6, 120, 196);
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
